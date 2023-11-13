@@ -1,5 +1,5 @@
 const {connect}= require('mongoose');
-const mongoURI = process.env.MONGODB;
+const mongoURI = process.env.MONGO_DB;
 
 const connectDB=async()=>{
   try{
