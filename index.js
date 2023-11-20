@@ -7,6 +7,7 @@ const {salesRouter} = require('./routers/sales.routes.js')
 
 const app = express()
 app.use(express.json())
+app.use(cors());
 app.options('*', cors())
 // app.use(cors(corsOptions));
 
